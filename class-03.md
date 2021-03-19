@@ -31,10 +31,15 @@
 **The Catch or Specify Requirement**
 * Catch or Specify Requirement - code that might throw certain exceptions must be enclosed by either a try statement that catches the exception or a method that specifies that it can throw the exception
 * 3 kinds of execeptions 
- - checked exception
- - 
+ - Checked exception - are conditions that a well-written application should anticipate and recover from, and are subject to the Catch or Specify Requirement.
+ - Error - are conditions that are external to the application, and that the application usually cannot anticipate or recover from, and are not subject to the Catch or Specify Requirement.
+ - Runtime exception - are exceptional conditions that are internal to the application, and that the application usually cannot anticipate or recover from, and are not subject to the Catch or Specify Requirement.
+ - Unchecked exceptions - errors and runtime exceptions 
 
 **How to Throw Exceptions**
-
+* Any code can throw an exception. 
+*  Throwable class - All the classes are descendants of it, and all allow programs to differentiate among the various types of exceptions that can occur during the execution of a program.
+* throw statement - Requires a single argument called a throwable object, which is a instance of any subclass of the Throwable class. 
+* Subclasses - error class and execption class
 
 ## [Using Scanner to read in a file in Java](https://docs.oracle.com/javase/tutorial/essential/io/scanning.html)
