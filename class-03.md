@@ -21,5 +21,20 @@
 
 ## [Exceptions in Java (read the first three sections on the left: What is an Exception, The Catch or Specify Requirement, Catching and Handling Exceptions)](https://docs.oracle.com/javase/tutorial/essential/exceptions/index.html)
 
+**What is an Exception?**
+* Exception - is an event that disrupts the normal flow of the program's instructions during the execution of a program. Exception short hand for exceptional event.
+* Exception object - object contains information about the error
+* Throwing an exception - creating an exception object and handing it to the runtime system
+* Call stack - list of methods
+* Exception handler - block of code that can handle and catch the exception
+
+**The Catch or Specify Requirement**
+* Catch or Specify Requirement - code that might throw certain exceptions must be enclosed by either a try statement that catches the exception or a method that specifies that it can throw the exception
+* 3 kinds of execeptions 
+ - checked exception
+ - 
+
+**How to Throw Exceptions**
+
 
 ## [Using Scanner to read in a file in Java](https://docs.oracle.com/javase/tutorial/essential/io/scanning.html)
