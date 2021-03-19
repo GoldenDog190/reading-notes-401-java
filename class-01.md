@@ -1,4 +1,4 @@
-# Read: 01 - Java Basics
+# Online Reading: 01 - Java Basics
 
 ## [Java Basics](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/index.html)
 
