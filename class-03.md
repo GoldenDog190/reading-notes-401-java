@@ -43,3 +43,12 @@
 * Subclasses - error class and execption class
 
 ## [Using Scanner to read in a file in Java](https://docs.oracle.com/javase/tutorial/essential/io/scanning.html)
+
+**Scanning**
+*  Scanner - an objects of type useful for breaking down formatted input into tokens and translating individual tokens according to their data type.
+* Breaking Input into Tokens
+  - a scanner uses white space to separate tokens
+  - white space characters - blanks, tabs, and line terminators
+* Translating Individual Tokens
+  - Scanner supports tokens for all of the Java language's primitive types with the exception of char.
+  - Numeric values can use thousands separators.
