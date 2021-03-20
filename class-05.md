@@ -32,8 +32,45 @@
 
 ## [What’s a Linked List, Anyway pt1](https://medium.com/basecs/whats-a-linked-list-anyway-part-1-d8b7e6508b9d)
 
-****
+**What’s a Linked List**
+* *Data structures* - different ways that we can organize our data
+  - Types of data structures: variables, arrays, hashes, and objects 
+* Linked lists
+  - A characteristic of linked lists are linear data structures.
+  - *Linear data structures* - have a sequence and an order to how they are constructed and traversed
+  - Look at it like a game of hopscotch where you go through the items sequentially.
+  - *Non-linear data structures* - items don’t have to be arranged in order, and can traverse data structure non-sequentially
+  - *hashes* - where you organize data, and are a non-linear data structure.
+  - Trees and graphs = non-linear data structures 
+  - Arrays = linear data structures
+* Memory management - have to pay attention the amount of memory being used with Java
+  - *Abstraction* - hiding away things that you don’t need to see or deal with all of the time
+  - Arrays need a certain amount of blocks of memory. They are static data structures.
+  - Linked list don’t need to take up a single block of memory, and the memory that they use can be scattered throughout. It is a dynamic data structures.
+  - *Static data structures* - needs all of its resources to be allocated when the structure is created, can grow or shrink, and needs a given size and amount of memory.
+  - *Dynamic data structures* - shrink and grow in memory, doesn’t need a set amount of memory to be allocated in order to exist, size and shape can change, and amount of memory can change
+* Parts of a linked list
+  - Linked list is made up of a series of nodes. 
+  - *head* - starting point of the list is a reference to the first node
+  - *null* - a node that points to the the end of the list 
+  - A single node is composed of data and a refernce to the node.
+* Lists for all shapes and sizes
+  - *Singly linked lists* - go in one direction
+  - *Doubly linked list* - has two references within each node
+  - *Circular linked list* - has a node that acts as the tail of the list, and and the node after the tail node is the beginning of the list
+
 
 ## [What’s a Linked List, Anyway pt2](https://medium.com/basecs/whats-a-linked-list-anyway-part-2-131d96f71996)
 
-****
+**Big O Notation**
+* *Big O Notation* - a way of evaluating the performance of an algorithm. Another way to think of it is a way to express the amount of time that a function, action, or algorithm takes to run based on how many elements we pass to that function.
+  - O - order
+  - n - variable that is used for the size of the input
+  - 2 Types of Big O equations - O(1) and O(n)
+    * O(1) function - takes constant time or takes the same amount of time and memory to run our algorithm
+    * O(n) function - input grows the space and time that we need to run that algorithm grows linearly
+* Growing a linked list
+  - Inserting an element into a linked list at the begining by first finding the head node of the linked list. Then make a new node, and set its pointer to the current first node of the list. Finally rearrange our head node’s pointer to point at our new node.
+  - Insert at the end of the list by finding the node we want to change the pointer of, create the new node we want to insert and set its pointer, and finally direct the preceding node’s pointer to our new node. 
+* To list or not to list?
+  - A linked list can be difficult to search through and find a element, but if its an array you can find things more easily and quickly.
