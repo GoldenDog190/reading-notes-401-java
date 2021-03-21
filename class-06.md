@@ -29,9 +29,9 @@
   - Java's interface is a reference type that contain only constants, method signatures, default methods, static methods, and nested types.
   - APIs are common in commercial software products.
 * *Inheritance* - classes can be derived from other classes, which means that they inherit fields and methods from those classes 
-  - *subclass* -  a class that is derived from another class
+  - *Subclass* -  a class that is derived from another class
     * Subclass inherits all of the public and protected members of its parent, inherits the package-private members of the parent, and can use the inherited members as is, replace them, hide them, or supplement them with new members. Subclass doesn't inherit the private members of its parent class. 
-  - *superclass* - class from which the subclass is derived
+  - *Superclass* - class from which the subclass is derived
     * Superclass has public or protected methods for accessing its private fields, which can be used by the subclass.
   - Object class - defines and implements behavior common to all classes, and defined in the java.lang package. 
   - Object is the most general of all classes and at the top of the heirarchy. The classes at the bottom have a more specialized behavior.
