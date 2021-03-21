@@ -45,7 +45,15 @@
   - java.net package contains classes for cookies such as CookieManager and HttpCookie
   - read the cookies from a response, then add the cookies to the cookie store, and finally add the cookies to the request 
 * Handling Redirects
+  - Enable or disable automatically following redirects for a specific connection by using the setInstanceFollowRedirects() method with true or false parameter.
+  - Possible to enable or disable automatic redirect for all connections.
 * Reading the Response
+  - Parse the InputStream of the HttpUrlConnection instance, and to execute it use the getResponseCode(), connect(), getInputStream() or getOutputStream() methods
+  - Close the connection by using the disconnect() method.
 * Reading the Response on Failed Requests
+  - Consume the failed stream by using HttpUrlConnection.getErrorStream().
 * Building the Full Response
+  - Add the response status information.
+  - Get the headers using getHeaderFields().
+  - Read the response content and append it
  
