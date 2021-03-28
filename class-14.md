@@ -19,4 +19,12 @@
         Pre-order: root >> left >> right
         In-order: left >> root >> right
         Post-order: left >> right >> root
-      * Breadth First - 
+      * Breadth First - iterates through the tree by going through each level of the tree node-by-node
+  * Binary Tree Vs K-ary Trees
+    - Binary Trees - restrict the number of children to two, no specific sorting order, and nodes can be added into a binary tree wherever space allows
+    - K-ary Trees - nodes that are able to have more than two children. K refers to the maximum number of children that each Node is able to have
+      * Breadth First Traversal - requires a similar approach to the breadth first traversal by still pushing nodes into a queue, but we are now moving down a list of children of length k, instead of checking for the presence of a left and a right child.
+      * Adding a node - is to fill all “child” spots from the top down, and to do so leverage the use of breadth first traversal. If you want to add a a node placed in a specific location, you need to reference both the new node to create, and the parent node upon which the child is attached to.
+      * Big O time complexity for inserting a new node is O(n).
+  * Binary Search Tree (BST) - a type of tree that does have some structure attached to it, and nodes are organized in a manner where all values that are smaller than the root are placed to the left, and all values that are larger than the root are placed to the right.
+    - Big O time complexity of a Binary Search Tree’s insertion and search operations is O(h).
