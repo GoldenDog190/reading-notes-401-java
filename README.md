@@ -20,4 +20,5 @@
 * [Class 17](class-17.md)
 * [Class 18](class-18.md)
 * [Class 19](class-19.md)
-* [Class 20](class-20.md)
+* [Class 26](class-26.md)
+* [Class 27](class-27.md)
