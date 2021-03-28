@@ -16,7 +16,6 @@
 * [Class 12](class-12.md)
 * [Class 13](class-13.md)
 * [Class 14](class-14.md)
-* [Class 15](class-15.md)
 * [Class 16](class-16.md)
 * [Class 17](class-17.md)
 * [Class 18](class-18.md)
