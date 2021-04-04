@@ -1,9 +1,20 @@
 # Read: 18 - Web App Security
 
 ## [Many to many relationships](https://www.baeldung.com/hibernate-many-to-many)
-****
-  * 
+**Hibernate Many to Many**
+  * This tutorial shows how the @ManyToMany annotation can be used for specifying this type of relationships in Hibernate.
+  * Entity Relationship Diagram – which shows the many-to-many association between two entities 
+  * Database Setup:
+      - created database with the name spring_hibernate_many_to_many
+      - create the employee and project tables along with the employee_project join table with employee_id and project_id as foreign keys
+      - Once that is setup, preparation of the Maven dependencies and Hibernate configuration needs to be done.
+      - Create model classes with JPA annotations. When both classes refer to one another, the association between them is bidirectional. 
+      - In order to map a many-to-many association, we use the @ManyToMany, @JoinTable and @JoinColumn annotations.
+      - @ManyToMany annotation - is used in both classes to create the many-to-many relationship between the entities. This association has two sides i.e. the owning side and the inverse side.
+      - @JoinTable - is used to define the join/link table. 
+      - @JoinColumn annotation - is used to specify the join/linking column with the main table. 
+      - Execution: write the a JUnit test
 
 ## [Security: a humorous overview](http://scholar.harvard.edu/files/mickens/files/thisworldofours.pdf)
-****
+**This World of Ours by James Mickens**
   * 
