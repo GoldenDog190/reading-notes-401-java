@@ -17,4 +17,9 @@
 
 ## [Security: a humorous overview](http://scholar.harvard.edu/files/mickens/files/thisworldofours.pdf)
 **This World of Ours by James Mickens**
-  * 
+  * Its like security researchers have problems with public relations because they make it so you can't just do whatever you want on a website.
+  * Security researchers are always trying to combate security issues, and make a better system for people to create passwords that are more secure. No matter what password you use, it can be breached. Its not a good idea to use the same password for everything.
+  * The threat model is what security researchers use to combat security breaches by telling people how to make passwords and where the security threats come from, but those security breaches aren't always from obvious places.
+  * There is no perfect security system out there, and no matter how strong of a security system it will be eventually broken in to. 
+  * Information flow control and security labels are used to make things more secure.
+  * Most people don't want to spend a bunch of money just to make there system more secure. So, security researchers should not focus on what would happen, but on what will happen when I properly compile my program.
