@@ -20,8 +20,13 @@
   * GetHash() - will accept a key as a string, conduct the hash, and then return the index of the array where the key/value should be placed.
 
 ## [what is a hash table?](https://www.youtube.com/watch?v=MfhjkfocRR0)
-****
-  * 
+**Introduction to hash tables**
+  * Hash tables are used to store information.
+  * Has two main components: a key and a value.
+  * A way to implement an assiociative array.
+  * Hash function will take in a key value, and as a result will give an index number.
+  * The key will always match that index number, but if another key with the same index comes up, you have to make a chain off of the unit it is in.
+  * Hash tables can be very large, and store many key values.
 
 ## [basics of hash tables](https://www.hackerearth.com/practice/data-structures/hash-tables/basics-of-hash-tables/tutorial/)
 **Basics of Hash Tables**
